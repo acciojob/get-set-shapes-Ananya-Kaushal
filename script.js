@@ -1,7 +1,7 @@
 //complete this code
 class Rectangle {
 
-	construct(width,height)
+	constructor(width,height)
 	{
 		this.width=width;
 		this.height=height;
@@ -25,7 +25,7 @@ class Rectangle {
 
 class Square extends Animal {
 
-	construct(side)
+	constructor(side)
 	{
 		super(side,side);
 	}
